@@ -1,0 +1,13 @@
+*{
+  color: red;
+  font-size: 100px;
+}
+p{
+  color: blue;
+}
+body{
+  background: red;
+}
+footer{
+  background-color: white;
+}
