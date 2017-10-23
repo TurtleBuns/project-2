@@ -18,6 +18,14 @@ section#start {
     color: #ffffff;
     font-size: 1em; }
 
+div#articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div#articles img {
+    width: 25%;
+    height: 0%; }
+
 footer {
   position: absolute;
   right: 0;

@@ -19,7 +19,13 @@ section#start{
     font-size: 1em;
   }
 }
-
+div#articles{
+  display: flex;
+  img{
+    width: 25%;
+    height: 0%;
+  }
+}
 
 footer{
   position: absolute;
