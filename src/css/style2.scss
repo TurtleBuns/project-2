@@ -1,3 +1,31 @@
-header{
-  color:white;
+body.home{
+  background: black;
+  section#start{
+    width: 100%;
+    align-items: center;
+    height: -webkit-fill-available;
+    img{
+      width:200px;
+    }
+    form{
+      padding: 0;
+    }
+    footer p{
+      bottom: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      font-size: 1em;
+      color: grey;
+    }
+  }
+}
+@media only screen and (max-width : 600px) {
+  body.home{
+    section#start{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  }
 }

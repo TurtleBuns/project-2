@@ -1,2 +1,30 @@
-header {
-  color: white; }
+body.home {
+  background: black; }
+  body.home section#start {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: -webkit-fill-available; }
+    body.home section#start img {
+      width: 200px; }
+    body.home section#start form {
+      padding: 0; }
+    body.home section#start footer p {
+      bottom: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      font-size: 1em;
+      color: grey; }
+
+@media only screen and (max-width: 600px) {
+  body.home section#start {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center; } }

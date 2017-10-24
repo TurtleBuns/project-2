@@ -36,6 +36,7 @@ div#articles{
     background-position: center;
     text-decoration: none;
     align-items: flex-end;
+    }
     p{
       text-align: left;
       color: white;
@@ -46,7 +47,6 @@ div#articles{
       width: 100%;
     }
   }
-}
 
 footer{
   text-align: center;
@@ -69,4 +69,10 @@ footer{
       width: 33%;
     }
   }
+}
+#start.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%
 }
