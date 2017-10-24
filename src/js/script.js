@@ -19,15 +19,13 @@ $.ajax({
     $('a.article').last().append('<p>' + allResult.results[i].abstract + '</p>');
     $('a.article').last().attr("href",allResult.results[i].url);
   }else{
-    thumb = allResult.results[i].multimedia[3].url;
+    thumb = allResult.results[i].multimedia[4].url;
     $('div#articles').append('<a class="article" style=background-image:url(' + thumb + ');'  +  ' /></a>');
     $('a.article').last().append('<p>' + allResult.results[i].abstract + '</p>');
     $('a.article').last().attr({'href':allResult.results[i].url});
   };
 };
-  if($(select#sections.world) == "world"){
-    allResult.section = "world"
-  };
+
 
 }).fail(function(err) {
   throw err;
